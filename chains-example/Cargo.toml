@@ -1,0 +1,10 @@
+[package]
+name = "chains-example"
+version = "0.1.0"
+authors = ["Discookie <matekos17@fazekas.hu>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chains-macros = { version = "0.1", path = "../chains-macros" }
